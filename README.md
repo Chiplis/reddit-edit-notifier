@@ -6,6 +6,8 @@ The script will monitor your chosen Reddit threads, and send you a link via What
 * [Python 3](https://www.python.org/])
 * [PRAW - Python Reddit API Wrapper](https://praw.readthedocs.io/en/latest/)
 * [Twilio's Python API](https://www.twilio.com/docs/libraries/python)
+* [Reddit Client ID / Secret](https://github.com/reddit-archive/reddit/wiki/oauth2)
+* [Twilio Account SID / Auth Token](https://www.twilio.com/console)
 
 ## Usage:
 * Configure the script with your Reddit/Twilio/WhatsApp credentials (relevant links shown in the script itself)

@@ -12,6 +12,7 @@ sender_number   =   "+14155238886"
 
 # Reddit credentials, see https://github.com/reddit-archive/reddit/wiki/oauth2
 reddit_username         =   None
+reddit_password         =   None
 reddit_client_id        =   None
 reddit_client_secret    =   None
 

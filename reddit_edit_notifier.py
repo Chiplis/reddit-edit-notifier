@@ -61,7 +61,8 @@ def monitor_edits(folder):
         for thread_id, content in threads.items():
             new_content = reddit_client.submission(id = thread_id).selftext 
             if new_content != content:
-                message = "https://www.reddit.com/comments/" + thread_id
+                # Use WhatsApp template message to avoid 24-hour limit window
+                message = "Your thread code is https://www.reddit.com/comments/" + thread_id
                 threads[thread_id] = new_content
                 update_file(folder, thread_id, new_content)
                 notify_user(message)
